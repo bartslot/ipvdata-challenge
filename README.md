@@ -1,3 +1,8 @@
+# Start
+1. Download het project via gh clone bartslot/ipvdata-challenge
+2. Installeer yarn (mocht je dat nog niet hebben: brew install yarn)
+3. Installeer de paketten in de hoofdfolder van het geclonede project
+
 # ipvdata-challenge
 Case: Dashboard met Statistieken Opdracht: Ontwerp en bouw een dashboard voor het weergeven van statistieken. Vereisten: Lijndiagram: Grafiek: Visuele weergave van prijzen met een lijndiagram 
 
