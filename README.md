@@ -13,11 +13,13 @@ Lijndiagram:
 - Filteropties: We moeten de data kunnen filteren op basis van tijd (dag, maand) en kunnen filteren op een merk.
 
 **Voorbeeld filters:**
-Merken filter, 3 voorbeelden: 
+
+Merken filter: 
 - Coca Cola,
 - Sportlife,
 - Wasa
-Categorie filter
+
+Categorie filter:
 - Frisdrank,
 - Snoep (Kauwgom)
 - Crackers
