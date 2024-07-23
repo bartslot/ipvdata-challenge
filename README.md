@@ -4,7 +4,7 @@ Case: Dashboard met Statistieken Opdracht: Ontwerp en bouw een dashboard voor he
 # Opdracht: Ontwerp en bouw een dashboard voor het weergeven van statistieken.
 
 # Vereisten:
-- Lijndiagram:
+Lijndiagram:
 - Grafiek: Visuele weergave van prijzen met een lijndiagram
 - Filteropties: We moeten de data kunnen filteren op basis van tijd (dag, maand), en kunnen filteren op producten
 
@@ -13,15 +13,22 @@ Case: Dashboard met Statistieken Opdracht: Ontwerp en bouw een dashboard voor he
 - Filteropties: We moeten de data kunnen filteren op basis van tijd (dag, maand) en kunnen filteren op een merk.
 
 **Voorbeeld filters:**
-● Merken filter, 3 voorbeelden: Coca Cola, Sportlife, Wasa
-● Categorie filter, 3 voorbeelden: Frisdrank, Snoep (Kauwgom), Crackers
+Merken filter, 3 voorbeelden: 
+- Coca Cola,
+- Sportlife,
+- Wasa
+Categorie filter
+- Frisdrank,
+- Snoep (Kauwgom)
+- Crackers
 
 **Diagram data:**
-In alle gevallen mag het uiteraard dummy data zijn, voor de lijndiagram gaat dit dan om een set aan producten. Voor de staafdiagram gaat dit dan om omzet (fictieve getallen)
+In alle gevallen mag het uiteraard dummy data zijn, voor de lijndiagram gaat dit dan om een set aan producten. 
+Voor de staafdiagram gaat dit dan om omzet (fictieve getallen)
 
 # Technische vereisten:
-● Gebruik TailwindCSS voor de styling.
-● Gebruik AlpineJS voor interactieve elementen zoals de grafieken en filteropties.
+- Gebruik TailwindCSS voor de styling.
+- Gebruik AlpineJS voor interactieve elementen zoals de grafieken en filteropties.
 
 **Kleuren / Huisstijl:**
 - Basis: #ffffff (wit)
