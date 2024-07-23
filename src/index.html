@@ -19,4 +19,35 @@
             </nav>
         </aside>
        <header>
-            <h1
+            <h1>Dashboard</h1>
+            
+        </header>
+
+        <div class="border border-neutral-600 p-20 rounded-lg">
+            <div class="flex items-center justify-between">
+                <!-- left column -->
+                <div class="flex gap-2 items-center justify-start"> 
+                    <h3>Verkoop en sales</h3>
+                </div>
+                <!-- right column -->
+                 <div class="flex gap-2 items-center justify-end">
+                    <select title="selcteer categorie" id="selectCategory" class="border border-neutral-600 p-10 rounded-lg">
+                        <option value="snoep">Snoep (kauwgom)</option>
+                        <option value="frisdrank">Frisdrank</option>
+                        <option value="crackers">Crackers</option>
+                    </select>
+                 </div>
+            </div>
+            <canvas id="linechart"></canvas>
+        </div>
+        <div class="border border-neutral-600 p-20 rounded-lg">
+            <canvas id="piechart"></canvas>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IPV Data. Alle rechten voorbehouden.</p>
+    </footer>
+    <script type="module" src="./src/scripts.js"></script>
+</body>
+</html>
