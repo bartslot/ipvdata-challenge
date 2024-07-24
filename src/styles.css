@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+[x-cloak] {
+    @apply hidden;
+}
+main {
+    @apply flex;
+}
+aside {
+    @apply min-w-[300px] p-2 w-1/3 bg-gray-light;
+}
+nav {
+    @apply flex flex-col bg-gray-light;
+}
+nav a {
+    @apply h-10 w-full flex justify-stretch items-center border-t-blue text-blue;
+}
+.current a {
+    @apply bg-blue text-white;
+}
+[data-theme="dark"] .logo .fillprimary {
+    @apply fill-white;
+}

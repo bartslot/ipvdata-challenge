@@ -1,8 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: ['./src/**/*.{html,js}'],
+    plugins: [require('daisyui')], 
+    daisyui: {
+      themes: ["light", "dark"],
+    },
+    darkMode: ['class', '[data-theme="dark"]'],
+    light: {
+      ...require("daisyui/src/theming/themes")["light"],
+      primary: "blue",
+      secondary: "gray-dark",
+    },
+    dark: {
+      ...require("daisyui/src/theming/themes")["dark"],
+      primary: "blue",
+      secondary: "gray-light",
+    },
     theme: {
       colors: {
+        'primary': '#325FF4',
+        'secondary': "#424242",
         'blue': '#325FF4',
         'purple': '#7e5bef',
         'pink': '#ff49db',
@@ -12,6 +29,7 @@ module.exports = {
         'gray-dark': '#424242',
         'gray': '#8492a6',
         'gray-light': '#d3dce6',
+        'white': '#ffffff',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
@@ -24,6 +42,7 @@ module.exports = {
         borderRadius: {
           '4xl': '2rem',
         }
+      
       }
     },
   }

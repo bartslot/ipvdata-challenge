@@ -11,7 +11,7 @@ Case: Dashboard met Statistieken Opdracht: Ontwerp en bouw een dashboard voor he
 # Opdracht: Ontwerp en bouw een dashboard voor het weergeven van statistieken.
 
 # Vereisten:
-Lijndiagram:
+**Lijndiagram:**
 - Grafiek: Visuele weergave van prijzen met een lijndiagram
 - Filteropties: We moeten de data kunnen filteren op basis van tijd (dag, maand), en kunnen filteren op producten
 

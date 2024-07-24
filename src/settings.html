@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <main class="min-h-[100vh]">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <div class="container mx-auto px-4 py-8 mt-16">
+            <canvas id="lineChart"></canvas>
+        </div>
+        <script>
+            const labels = Utils.months({count: 7});
+            const config = {
+                type: 'line',
+                data: data,
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                        position: 'top',
+                        },
+                    }
+                },
+            };
+            const data = {
+                labels: labels,
+                datasets: [
+                  {
+                    label: 'Coca Cola',
+                    data: Utils.numbers(NUMBER_CFG),
+                    borderColor: Utils.CHART_COLORS.red,
+                    backgroundColor: Utils.transparentize(Utils.CHART_COLORS.red, 0.5),
+                  },
+                  {
+                    label: 'Wasa',
+                    data: Utils.numbers(NUMBER_CFG),
+                    borderColor: Utils.CHART_COLORS.blue,
+                    backgroundColor: Utils.transparentize(Utils.CHART_COLORS.blue, 0.5),
+                  }
+                ]
+              };
+            var ctx = document.getElementById('lineChart').getContext('2d');
+              var chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                  datasets: [{
+                    label: 'Per maand',
+                    data: [12, 19, 3, 5, 2, 3, 14],
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                  }]
+                },
+                options: {
+                  responsive: true,
+                  scales: {
+                    yAxes: [{
+                      ticks: {
+                        beginAtZero: true
+                      }
+                    }]
+                  }
+                }
+              });
+        </script>
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>
