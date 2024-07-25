@@ -1,9 +1,13 @@
 # Start
-1. Download het project via gh clone bartslot/ipvdata-challenge
-2. Installeer yarn (mocht je dat nog niet hebben: `brew install yarn`)
+1. Download het project via `gh clone bartslot/ipvdata-challenge`
+2. Installeer yarn (mocht je dat nog niet hebben: `brew install yarn`
 3. Installeer de paketten in de hoofdfolder van het geclonede project met `yarn`
 4. Start de development server met `yarn start`
-5. Ga in de browser naar http://localhost:1234
+5. Ga in een browser naar: http://localhost:1234
+
+# Notities
+Ik heb door tijdgebrek maar 1 van de 2 diagrammen gemaakt. Ik heb echter wel een voorbeeld van het lijndiagram ontworpen, hoe ik het zou willen hebben.
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FSSIcYLPoniBbrUqVNe2jyS%2FEditable-Charts-UI-Kit-for-Dashboard-Design-%255BFree%255D-(Community)%3Fnode-id%3D204-98%26t%3DJjeNPlDRaaPwzdGm-1" allowfullscreen></iframe>
 
 # ipvdata-challenge
 Case: Dashboard met Statistieken Opdracht: Ontwerp en bouw een dashboard voor het weergeven van statistieken. Vereisten: Lijndiagram: Grafiek: Visuele weergave van prijzen met een lijndiagram 
